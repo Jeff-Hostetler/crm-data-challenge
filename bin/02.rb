@@ -12,7 +12,6 @@ load '../data/crm.rb'
           entry[:person_id] = person[:id]
           entry[:person_first_name] = person[:first_name]
           entry[:person_last_name] = person[:last_name]
-          entry[:company_id] = person[:company_id]
           entry[:title] = employ[:title]
           result << entry
         end

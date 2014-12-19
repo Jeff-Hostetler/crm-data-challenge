@@ -5,7 +5,6 @@ load '../data/crm.rb'
     result = []
 
     data[:people].each do |person|
-      person[:employments] = nil
       entry  = {}
       entry[:id] = person[:id]
       entry[:first_name] = person[:first_name]
